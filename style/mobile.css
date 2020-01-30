@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 80%;
+}
+
+nav {
+    display: none;
+}
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.hero {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+
+.bg-img {
+    max-width: 767px;
+    height: auto;
+}
+
+.info {
+    margin-top: -100px;
+    text-align: center;
+}
+.info h3 {
+    font-size: 40px;
+}
+
+/*---------------------------ABOUT SECTION---------------------------------------------*/
+
+#about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+}
+.about-left-section {
+    width: 100%;
+    height: auto;
+}
+.me-img {
+    width: 50%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    margin-bottom: 50px;
+}
+.about-wrapper {
+     width: 100%;
+     height: auto;
+     margin-top: 60px;
+
+}
+
+#intro p {
+     width: 100%;
+}
+
+.more-info {
+    width: 100%;
+    height: 100%;
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.active {
+    background: transparent;
+}
+
+
+.section-title {
+    font-size: 120px;
+}
+
+/*-----------------------------PROJECTS SECTION-------------------------------------*/
+#projects {
+    width: 100%;
+    height: auto;
+    
+}
+.proj {
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+}
+.project-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*----------------------------CONTACT SECTION----------------------------------------------*/
+
+form {
+    width: 90%;
+}

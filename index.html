@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jacob Chavana | Web Developer</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" media="(max-width: 767px)" href="style/mobile.css">
+    <link rel="stylesheet" media="(max-width: 980px)" href="style/tablet.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c14f662b12.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <section  id="hero">
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>            
+        </nav>
+        <div class="bg-img">
+            <img src="lap.jpg" alt="">
+        </div>
+        <div class="info">
+            <h1>Jacob Chavana</h1>
+            <h3>Web Designer\Developer</h3>
+            <p>
+                
+            </p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+        </section>
+        <section id="about">
+            <div class="about-left-section">
+                <h2 class="section-title about-title" data-aos="fade-right" data-aos-delay="50">About <span>Me</span></h2>
+                <img src="me.png" class="me-img" alt="" data-aos="fade-right"
+                data-aos-delay="500">
+            </div>
+            <div class="about-wrapper" data-aos="fade-left" data-aos-delay="50"> 
+                <div class="buttons">
+                    <button class="btntab active" onclick="openTab(event,'intro')">Intro</button>
+                    <button class="btntab" onclick="openTab(event,'skill')">Skills</button>
+                    <button class="btntab" onclick="openTab(event,'more')">Resume</button>
+                </div>
+                <div id="intro" class="tab">
+                    <p>
+                        <span>Hello!</span> I am a creative Web Designer/ Developer based out of San Antonio, TX. I am passionate about designing beautiful, intuitive, and responsive websites that live on the internet.
+                    </p>
+                    <div class="social">
+                        <a href=""><i class="fab fa-linkedin-in social-icon"></i></a>
+                        <a href=""><i class="fab fa-github-alt social-icon"></i></a>
+                        <a href=""><i class="fab fa-twitter social-icon"></i></a>
+                        <a href=""><i class="fab fa-instagram social-icon"></i></a>
+                    </div>
+                </div>
+                <div id="skill" class="tab">
+                    
+                    <div class="skills">
+                        <div class="skill-bar">
+                            <i class="fab fa-html5"><span>HTML</span></i>
+                            <div class="bar html-bar"> 95%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <i class="fab fa-css3-alt"><span>CSS</span></i>
+                            <div class="bar css-bar">90%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <i class="fab fa-js-square"><span>JavaScript</span></i>
+                            <div class="bar js-bar">85%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <i class="fab fa-java"><span>Java</span></i>
+                            <div class="bar java-bar">80%</div>
+                        </div>
+                        <div class="skill-bar">
+                            <i class="fab fa-wordpress"><span>WordPress</span></i>
+                            <div class="bar wp-bar">90%</div>
+                        </div>                        
+                    </div>
+                </div>
+                <div id="more" class="tab">
+                    <div class="more-info">
+                        Download Resume
+                        <br>
+                        <a href="resume.pdf" target="_blank"><i class="far fa-file-pdf"></i></a>
+                    </div>
+                    
+                    
+                </div>
+            </div>  
+        </section>
+        <section id="projects">
+            <h2 class="project-title" data-aos="zoom-in">Projects</h2>
+            <div class="project-wrapper">
+                <div class="proj" data-aos="zoom-in" data-aos-delay="250">
+                    
+                    <img src="projects/pool2.png" alt=""><br>
+                    <p class="proj-title">
+                        Allstarpoolcleaning.com
+                    </p>
+                    <p>
+                        A one-page responsive website made with the use of WordPress and Elementor.
+                    </p>
+
+                    <button>View Code</button>
+                    <a href="http://www.allstarpoolmaintenance.com" target="_blank"><button>View Live</button></a>
+                </div>
+                <div class="proj" data-aos="zoom-in" data-aos-delay="250">
+                    
+                    <img src="projects/pool2.png" alt=""><br>
+                    <p class="proj-title">
+                        Allstarpoolcleaning.com
+                    </p>
+                    <p>
+                        A one-page responsive website made with the use of WordPress and Elementor.
+                    </p>
+
+                    <button>View Code</button>
+                    <a href="http://www.allstarpoolmaintenance.com" target="_blank"><button>View Live</button></a>
+                </div>
+                <div class="proj" data-aos="zoom-in" data-aos-delay="250">
+                    
+                    <img src="projects/pool2.png" alt=""><br>
+                    <p class="proj-title">
+                        Allstarpoolcleaning.com
+                    </p>
+                    <p>
+                        A one-page responsive website made with the use of WordPress and Elementor.
+                    </p>
+
+                    <button>View Code</button>
+                    <a href="http://www.allstarpoolmaintenance.com" target="_blank"><button>View Live</button></a>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="contact-title" data-aos="fade-down" data-aos-delay="300">Contact</h2>
+            <p data-aos="fade-down" data-aos-delay="300">
+                Need help on a project? <br> Let's Talk!
+            </p>
+            <form action="" data-aos="flip-left"
+             data-aos-delay="300">
+                <input type="text" id="name" name="name" placeholder="Name">
+                <input type="text" id="phone" name="phone" placeholder="Phone">
+                <input type="text" id="email" name="email" placeholder="E-mail">
+                <textarea name="message" id="message"  placeholder="What can I help you with?"></textarea>
+                <input type="submit" id="submit" value="Submit">
+
+            </form>
+        </section>
+        <footer>Copyright &copy; 2019 Jacob Chavana</footer>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init({
+            duration: 2000,
+        });
+    </script>
+    
+</body>
+</html>

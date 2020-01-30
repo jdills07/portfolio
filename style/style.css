@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+html {
+    scroll-behavior: smooth;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2px;
+    font-size: x-large;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+/* hero section -----------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    
+}
+
+nav {
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav ul li a:hover {
+    color: crimson;
+}
+
+.bg-img  img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.info {
+    width: 50%;
+    height: auto;
+    color: whitesmoke;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    top: 35%;
+    left: 22.5%;
+}
+
+.info h1 {
+    font-size: 100px;
+}
+
+.info h3 {
+    font-size: 50px;
+}
+
+.info p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    font-size: 20px;
+    background: whitesmoke;
+    color: crimson;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: crimson;
+    color: whitesmoke;
+}
+ /*  about section ------------------------------------------------------------*/
+#about {
+    width: 100%;
+    height: 100vh;
+    background-color: 	whitesmoke;
+    color: black;
+    display: flex;
+}
+
+.fab {
+    font-size: 50px;
+    margin: 10px;
+}
+
+.fa-html5 {
+    color: #f16529;
+}
+
+.fa-css3-alt {
+    color: #264de4; 
+}
+
+.fa-js-square {
+    color: #F0DB4F;
+}
+
+.fa-java {
+    color: #f89820;
+}
+
+.fa-wordpress {
+    color: #21759b;
+}
+
+.skill-bar {
+    width: 100%;
+    height: auto;
+}
+
+.bar {
+    height: 25px;
+    text-align: right;
+}
+
+.html-bar {
+    width: 0%;
+    background-color: #f16529;
+    color: black;
+    animation: fill-html;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes fill-html {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 95%;
+    }
+}
+.css-bar {
+    width: 0%;
+    background-color: #264de4;
+    color: black;
+    animation: fill-css;
+    animation-duration: 2s;
+    animation-delay: .25s;
+    animation-fill-mode: forwards;
+}
+@keyframes fill-css {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+.js-bar {
+    width: 0%;
+    background-color: #F0DB4F;
+    color: black;
+    animation: fill-js;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fill-js {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+.java-bar {
+    width: 0%;
+    background-color: #f89820;
+    color: black;
+    animation: fill-java;
+    animation-duration: 2s;
+    animation-delay: .75s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fill-java {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+.wp-bar {
+    width: 0%;
+    background-color :#21759b;
+    color: black;
+    animation: fill-wp;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fill-wp {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+.about-left-section {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.section-title {
+    width: 30%;
+    height: auto;
+    font-size: 150px;
+    position: relative;
+    margin: auto;
+    margin-left: 100px;
+    color:  black;
+    text-transform: uppercase;
+    opacity: 0;
+}
+
+.section-title span{
+    font-size: 100px;
+    position: absolute;
+    left: 150px;
+    bottom: -20px;
+    color: crimson;
+}
+
+.me-img {
+    width: 75%;
+    height: auto;
+   
+}
+
+.about-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    margin: auto;
+    
+}
+
+
+#intro {
+    width: 100%;
+    height: 100%;
+    padding: 30px 10px;
+} 
+
+#intro p {
+    width: 80%;
+    height: auto;
+    
+}
+
+#intro p span {
+    font-size: 40px;
+    color: crimson;
+}
+
+.social a {
+    text-decoration: none;
+    color: crimson;
+}
+
+.social a:hover {
+    color: black;
+}
+
+#skill {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btntab {
+    background-color: whitesmoke;
+    width: 130px;
+    height: auto;
+    font-size: 24px;
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px whitesmoke;
+    outline: none;
+    cursor: pointer;
+}
+
+.btntab:hover {
+    border: 2px solid crimson;
+    color: crimson;
+}
+
+.buttons button.active {
+    border: 2px solid crimson;
+    color: crimson;
+}
+
+
+
+#more {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+.fa-file-pdf {
+    font-size: 150px;
+    color: crimson;
+    
+}
+
+.more-info{
+    width: 70%;
+    height: 100%;
+    padding: 50px 0;
+    text-align: center;
+    
+}
+
+.more-info .far {
+    margin-top: 20px;
+}
+
+#skill, #more {
+    display: none;
+}
+
+/*  project section ---------------------------------------------------------------*/
+#projects {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background: whitesmoke;
+    color: whitesmoke;
+    background: crimson;
+    padding-top: 30px;
+}
+
+.project-title {
+    font-size: 100px;
+    text-transform: uppercase       ;
+}
+.project-wrapper {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.proj {
+    max-width: 300px;
+    height: auto;
+}
+ 
+.proj img{
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+    
+}
+
+.proj button {
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    background-color: whitesmoke; 
+    border: 2px solid crimson;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.proj button:hover {
+    background-color: crimson;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+
+.proj-title {
+    color: black;
+}
+
+
+/*  contact section -----------------------------------------------------------------*/
+#contact {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background: white;
+    color: crimson;
+}  
+
+.contact-title {
+    font-size: 100px;
+}
+
+form {
+    width: 45%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 20px 0; 
+    border: 2px solid whitesmoke;   
+    border-radius: 20px;
+    
+}
+
+input {
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    background: transparent;
+    outline: none;
+    color: whitesmoke;
+}
+
+textarea {
+    width: 90%;
+    height: 120px;
+    margin: auto;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    background: transparent;
+    outline: none;
+    overflow: hidden;
+    color: whitesmoke;
+}
+
+#submit {
+    width: 100px;
+    color: whitesmoke;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#submit:hover {
+    background: whitesmoke;
+    color: crimson;
+}
+
+::placeholder {
+    color: crimson;
+    opacity: .8;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
