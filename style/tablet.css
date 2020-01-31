@@ -17,7 +17,7 @@ section {
 #about {
     display: flex;
     flex-direction: column;
-    height: 105vh;
+    height: auto;
 }
 
 .about-left-section {
@@ -40,7 +40,10 @@ section {
 }
 
 /*---------------------PROJECT SECTION---------------------------------------------------*/
- .proj {
+#projects {
+    height: auto;
+} 
+.proj {
      padding: 5px;
  }
 .project-wrapper {
